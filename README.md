@@ -10,7 +10,12 @@ Um script Python para automatizar a criação de apps via Pake no macOS.
 
 ## Instalação
 
-1. Clone este repositório ou baixe o arquivo `pakewrapper.py`
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/profgabrielramos/PakeScript.git
+   cd PakeScript
+   ```
+
 2. Torne o script executável:
    ```bash
    chmod +x pakewrapper.py
@@ -32,8 +37,7 @@ O script irá:
 ## Configurações Padrão
 
 - Dimensões: 1280x800 (otimizado para M3)
-- Transparência: habilitada
-- Build: universal (--darwin-universal)
+- Build: universal (--multi-arch)
 - Nome do app: baseado no domínio da URL
 
 ## Logs
@@ -58,4 +62,20 @@ Você pode interromper o processo a qualquer momento com Ctrl+C.
 Após a criação do app:
 1. Arraste o .app para a pasta Applications
 2. Execute pela primeira vez para permitir no Security
-3. Use o Spotlight (⌘+Space) para lançar o app 
+3. Use o Spotlight (⌘+Space) para lançar o app
+
+## Contribuindo
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+## Autor
+
+Gabriel Ramos - [@profgabrielramos](https://github.com/profgabrielramos) 
