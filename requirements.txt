@@ -1,0 +1,2 @@
+# Não há dependências externas, apenas bibliotecas padrão do Python
+# Este arquivo é mantido para documentação e compatibilidade 
